@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+  body{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  section{
+    border: 1px solid green;
+    width: 40vw;
+    
+  }
+  .container{
+    background-color: rgb(36, 36, 36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+  }
+  .progress{
+    width: 200px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    position: relative;
+  }
+  .container p{
+  margin: 10px;
+  }
+  span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    
+    background-color: aqua;
+    
+  }
+  .html{
+    width: 90%;
+  }
+  .javascript{
+    width: 70%;
+  }
+  .php{
+    width: 40%;
+  }
+
+    </style>
+</head>
+<body>
+    <section class="skills">
+    <div class="container">
+        <p>html 98%</p>
+        <div class="progress">
+            <span class="html"></span>
+        </div>
+    </div>
+    <div class="container">
+        <p>html 98%</p>
+        <div class="progress">
+            <span class="javascript"></span>
+        </div>
+    </div>
+    <div class="container">
+        <p>html 98%</p>
+        <div class="progress">
+            <span class="php"></span>
+        </div>
+    </div>
+    </section>
+</body>
+</html>
